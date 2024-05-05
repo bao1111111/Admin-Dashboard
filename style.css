@@ -1,0 +1,9 @@
+body{display: grid;
+     grid-template-columns: 1fr 4fr;
+     grid-template-rows: 1fr 4fr;
+     margin: 0
+     }
+
+.Sidebar{background-color: gray;
+         grid-column: 1/2;
+         grid-row: 1/3;}
