@@ -22,10 +22,24 @@ a{text-decoration: none;
   color: white;
   }
 
-.dashboard{margin: 10px 10px 40px 10px}
+.dashboard{margin: 20px 10px 40px 20px}
 
-.main-links{margin: 10px 10px 80px 10px;
-            display: flex;
-            flex-direction: column;}
+.main-links{display: grid;
+            grid-template-columns: 1fr; 
+            gap: 15px;
+            margin: 10px 10px 40px 20px}
 
-.help-links{margin: 10px 10px 0px 10px;}
+.help-links{display: grid;
+           grid-template-columns: 1fr; 
+           gap: 15px;
+           margin: 10px 10px 40px 20px}
+
+.search-bar{display: grid;}
+
+.profile-bar{display: flex;
+             flex-direction: row;
+             justify-content: space-between;
+             }
+.name{display: grid;
+      grid-template-columns: 1fr;
+      margin: 0}
