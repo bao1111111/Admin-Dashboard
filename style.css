@@ -43,3 +43,12 @@ a{text-decoration: none;
 .name{display: grid;
       grid-template-columns: 1fr;
       margin: 0}
+
+.projects{display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(3, 1fr);
+          gap: 5px}
+
+.content-grid{display: grid;
+          grid-template-columns: 1.75fr 1.75fr 1fr
+}
