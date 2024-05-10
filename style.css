@@ -34,20 +34,21 @@ a{text-decoration: none;
            gap: 15px;
            margin: 10px 10px 40px 20px}
 
-.search-bar{display: grid;}
+h5.greet{margin-bottom: 0; padding: 0}
 
-.profile-bar{display: flex;
-             flex-direction: row;
-             justify-content: space-between;
+p.name1{margin-top: 0; padding: 0}
+
+.search-bar{ }
+
+.profile-bar{
              }
-.name{display: grid;
-      grid-template-columns: 1fr;
-      margin: 0}
+
 
 .projects{display: grid;
           grid-template-columns: 1fr 1fr;
           grid-template-rows: 1fr 1fr 1fr;
-          gap: 5px;
+          gap: 51px;
+          grid-row: 1/4;
           }
 
 .content-grid{display: grid;
