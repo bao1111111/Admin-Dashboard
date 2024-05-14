@@ -26,8 +26,8 @@ body{display: grid;
         ;}
 
 .main-content{background-color: lightgreen;
-              grid-template-columns: 3fr 1fr 1fr;
-              grid-template-rows: 1fr 1fr 1fr;
+              display: grid;
+              grid-template-columns: 3fr 1fr;
 }
 
 a{text-decoration: none;
@@ -59,14 +59,19 @@ p.name1{margin-top: 0; padding: 0}
 
 
 .projects{display: grid;
+          gap: 51px;
           grid-template-columns: 1fr 1fr;
           grid-template-rows: 1fr 1fr 1fr;
-          gap: 51px;
-          grid-row: 1/4;
           margin: 20px;
           margin-top: 0
                    }
       
 
 .project2 .project3 .project4 .project5 .project6{align-self: top;}
+
+.Announcements{ grid-column: 2/3;}
+
+.trending{grid-column: 2/3}
+
+.content-grid1{grid-row: 1/3;}
 
