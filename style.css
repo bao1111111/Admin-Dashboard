@@ -50,13 +50,14 @@ h5.greet{margin-bottom: 0; padding: 0}
 
 p.name1{margin-top: 0; padding: 0}
 
-.search-bar{ }
+.search-bar{margin-left: 300px; margin-right: 300px}
 
 .profile-bar{display: grid; grid-template-columns: 1fr 1fr; margin-top: 50px;
              }
 
-.buttons{justify-self: center; align-self: center;}
+.buttons{justify-self: right; align-self: center; margin-right: 300px}
 
+.name{justify-self: left; align-self: center; margin-left: 300px}
 
 .projects{display: grid;
           gap: 51px;
