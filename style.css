@@ -45,7 +45,7 @@ a{text-decoration: none;
 
 .dashboard{margin: 20px 10px 60px 20px; font-size: 30px; display: flex; color: white;}
 
-.dashImg{width: 50px}
+.dashImg{width: 50px; fill: white}
 
 .Name{margin-top: 5px;}
 
