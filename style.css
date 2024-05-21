@@ -47,6 +47,8 @@ a{text-decoration: none;
 
 .dashImg{width: 50px; fill: white}
 
+.allImg{fill: white; width: 25px; padding-top: 5px;}
+
 .Name{margin-top: 5px;}
 
 .main-links{display: grid;
