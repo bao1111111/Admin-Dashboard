@@ -47,9 +47,13 @@ a{text-decoration: none;
 
 .dashImg{width: 50px; fill: white}
 
-.allImg{fill: white; width: 25px; padding-top: 5px;}
+.allImg{fill: white; width: 25px; margin-left: 6px;}
 
-.Name{margin-top: 5px;}
+.Name{margin-top: 3px; margin-left: 5px;}
+
+.home, .profile, .messages, .history, .tasks, .communities, .settings, .support, .privacy{display: flex;}
+
+
 
 .main-links{display: grid;
             grid-template-columns: 1fr; 
