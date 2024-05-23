@@ -69,14 +69,25 @@ h5.greet{margin-bottom: 0; padding: 0}
 
 p.name1{margin-top: 0; padding: 0}
 
-.search-bar{margin-left: 300px; margin-right: 300px; display: flex; margin-top: 20px;}
+.search-bar{margin-left: 130px; margin-right: 300px; display: flex; margin-top: 20px;}
 
 .profile-bar{display: grid; grid-template-columns: 1fr 1fr; margin-top: 50px;
              }
 
-.buttons{justify-self: right; align-self: center; margin-right: 300px}
+.buttons{justify-self: right; align-self: center; margin-right: 300px;}
 
-.name{justify-self: left; align-self: center; margin-left: 300px}
+.new-button, .upload, .share{
+  margin-left: 30px;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #02a2df;
+  color: white}
+
+  .new-button:active, .upload:active, .share:active{border: 1px solid white}
+
+.name{justify-self: left; align-self: center; margin-left: 130px}
 
 .projects{display: grid;
           gap: 51px;
