@@ -34,7 +34,7 @@ body{display: grid;
 
 .searchButton{height: 20px; width: 20px; margin-right: 10px;}
 
-.main-content{background-color: lightgreen;
+.main-content{background-color: rgb(214, 221, 228);
               display: grid;
               grid-template-columns: 3fr 1fr;
 }
@@ -94,11 +94,12 @@ p.name1{margin-top: 0; padding: 0}
           grid-template-columns: 1fr 1fr;
           grid-template-rows: 1fr 1fr 1fr;
           margin: 20px;
-          margin-top: 0
+          margin-top: 0;
+          height: 90%;
                    }
       
+.project1 , .project2, .project3, .project4, .project5, .project6{background-color: white; box-shadow: inset 7px 0 orange}
 
-.project2 .project3 .project4 .project5 .project6{align-self: top;}
 
 .Announcements{ grid-column: 2/3;}
 
