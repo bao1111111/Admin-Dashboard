@@ -95,15 +95,17 @@ p.name1{margin-top: 0; padding: 0}
           grid-template-rows: 1fr 1fr 1fr;
           margin: 20px;
           margin-top: 0;
-          height: 90%;
+          height: 90%
                    }
       
-.project1 , .project2, .project3, .project4, .project5, .project6{background-color: white; box-shadow: inset 7px 0 orange}
+.project1 , .project2, .project3, .project4, .project5, .project6{background-color: white;
+  box-shadow: inset 7px 0 orange;
+  border-radius: 5px;}
 
+.content-grid2tr{display: grid;
+                 grid-template-columns: 1fr;
+                 grid-template-rows: 1fr 1fr;}
 
-.Announcements{ grid-column: 2/3;}
-
-.trending{grid-column: 2/3}
 
 .content-grid1{grid-row: 1/3;}
 
