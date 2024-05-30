@@ -71,10 +71,9 @@ h3.name1{margin-top: 0; padding: 0}
 
 .search-bar{margin-left: 130px; margin-right: 300px; display: flex; margin-top: 20px;}
 
-.profile-bar{display: grid; grid-template-columns: 1fr 1fr; margin-top: 50px;
-             }
+.profile-bar{display: flex; margin-top: 15px; justify-content: space-between;}
 
-.buttons{justify-self: right; align-self: center; margin-right: 300px;}
+.buttons{justify-self: right; align-self: center; margin-right: 50px;}
 
 .new-button, .upload, .share{
   margin-left: 30px;
@@ -87,7 +86,11 @@ h3.name1{margin-top: 0; padding: 0}
 
   .new-button:active, .upload:active, .share:active{border: 1px solid white}
 
-.name{justify-self: left; align-self: center; margin-left: 130px}
+.name{display: flex; margin-left: 130px;}
+
+.names{display: grid;}
+
+.burger-img{height: 50px; align-self: center; margin-right: 20px; border-radius: 50%;}
 
 .projects{display: grid;
           gap: 20px;
@@ -95,7 +98,7 @@ h3.name1{margin-top: 0; padding: 0}
           grid-template-rows: 1fr 1fr 1fr;
           margin: 20px;
           margin-top: 0;
-          height: 75vh
+          height: 75vh;
                    }
       
 .project1 , .project2, .project3, .project4, .project5, .project6{background-color: white;
