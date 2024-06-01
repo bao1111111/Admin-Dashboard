@@ -109,7 +109,11 @@ h3.name1{margin-top: 0; padding: 0}
       
 .project1 , .project2, .project3, .project4, .project5, .project6{background-color: white;
   box-shadow: inset 7px 0 orange;
-  border-radius: 5px;}
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;}
+
+.icon{width: 20px}
 
 
 .content-grid1{grid-row: 1/3;}
@@ -133,3 +137,5 @@ p{margin-top: 0;}
 .content-grid2{justify-content: center; margin-bottom: 33px}
 
 .content-grid2tr{ margin-top: 23px; display: grid; grid-template-rows: 1fr 1fr; height: 75vh}
+
+.icons{display: flex; justify-content: right;}
