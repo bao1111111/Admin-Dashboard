@@ -113,8 +113,6 @@ h3.name1{margin-top: 0; padding: 0}
   display: grid;
   grid-template-rows: 1fr 1fr;}
 
-.icon{width: 20px}
-
 
 .content-grid1{grid-row: 1/3;}
 
@@ -138,4 +136,9 @@ p{margin-top: 0;}
 
 .content-grid2tr{ margin-top: 23px; display: grid; grid-template-rows: 1fr 1fr; height: 75vh}
 
-.icons{display: flex; justify-content: right;}
+.icons{display: flex; justify-content: right; margin-bottom: 0px;}
+
+.icon{margin-right: 25px; width: 23px; align-self: flex-end; margin-bottom: 20px;}
+
+.text1{margin-left: 20px}
+
