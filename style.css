@@ -132,7 +132,11 @@ p{margin-top: 0;}
 
 .content-grid2, .content-grid3{background-color: white; border-radius: 5px; display: grid;}
 
-.content-grid2{justify-content: center; margin-bottom: 33px}
+.content-grid2{margin-bottom: 16px}
+
+.announce1, .announce2, .announce3{display: grid; justify-content: center;}
+
+hr{width: 280px}
 
 .content-grid2tr{ margin-top: 23px; display: grid; grid-template-rows: 1fr 1fr; height: 75vh}
 
