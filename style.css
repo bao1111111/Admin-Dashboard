@@ -148,5 +148,8 @@ hr{width: 280px}
 
 .trend1, .trend2, .trend3, .trend4{display: flex;}
 
-.allProfile{width: 80px; border-radius: 50%}
+.allProfile1{width: 80px; border-radius: 50%}
 
+.allProfile2{width: 75px; border-radius: 50%;}
+
+.allProfile3{width: 60px; height: 60px; border-radius: 50%; align-self: center; margin-left: 10px;}
