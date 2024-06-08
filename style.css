@@ -111,7 +111,7 @@ h3.name1{margin-top: 0; padding: 0}
   box-shadow: inset 7px 0 orange;
   border-radius: 5px;
   display: grid;
-  grid-template-rows: 1fr 1fr;}
+  grid-template-rows: 1fr 0.3fr;}
 
 
 .content-grid1{grid-row: 1/3;}
