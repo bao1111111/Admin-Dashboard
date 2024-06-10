@@ -134,17 +134,19 @@ p{margin-top: 0;}
 
 .content-grid2{margin-bottom: 16px}
 
-.announce1, .announce2, .announce3{display: grid; justify-content: center; margin-left: 20px; margin-right: 20px;}
+.announce1, .announce2, .announce3{display: grid; justify-content: center; margin-left: 30px; margin-right: 40px;}
 
-.smallHeader{font-size: 14px}
+.announce2, .announce3{margin-top: 5px;}
+
+.announce3{margin-bottom: 2px;}
 
 .smallText{font-size: 13px;}
 
-hr{width: 330px; margin-top: 0px; margin-bottom: 0px;}
+hr{width: 300px; margin-top: 0px; margin-bottom: 0px; border: 1px solid rgb(231, 226, 226)}
 
 .sH2{margin-top: 5px;}
 
-.content-grid2tr{ margin-top: 23px; display: grid; grid-template-rows: 1fr 1fr; height: 75vh; margin-right: 20px;}
+.content-grid2tr{ margin-top: 23px; display: grid; grid-template-rows: 1fr 1fr; height:  75vh; margin-right: 20px;}
 
 .icons{display: flex; justify-content: right; margin-bottom: 0px;}
 
@@ -165,3 +167,4 @@ hr{width: 330px; margin-top: 0px; margin-bottom: 0px;}
 .allProfile4{width: 80px; border-radius: 50%; margin-left: 10px;}
 
 p{color: rgb(133, 131, 131)}
+
